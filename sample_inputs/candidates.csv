@@ -1,0 +1,5 @@
+name,email,phone,current_company,title,skills,location
+Alex Johnson,alex@gmail.com,(555) 867-5309,Google,Software Engineer,"Python, ML",San Francisco US
+Priya Sharma,priya.sharma@outlook.com,+91-98765-43210,Microsoft,Data Scientist,"Python, Deep Learning, TensorFlow",Bangalore India
+Jordan Lee,jordan.lee@yahoo.com,555-123-4567,Stripe,Backend Engineer,"Go, Python, PostgreSQL",New York USA
+Alex Johnson,alex.johnson@gmail.com,555-867-5309,Google,Senior Software Engineer,"Python, Machine Learning, TensorFlow",SF California

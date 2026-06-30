@@ -1,0 +1,17 @@
+{
+  "fields": [
+    {"source_field": "full_name",        "output_field": "name"},
+    {"source_field": "emails",           "output_field": "emails",           "include_confidence": true, "include_provenance": true},
+    {"source_field": "phones",           "output_field": "phones",           "include_confidence": true},
+    {"source_field": "location",         "output_field": "location"},
+    {"source_field": "skills",           "output_field": "skills",           "include_confidence": true},
+    {"source_field": "experience",       "output_field": "experience"},
+    {"source_field": "education",        "output_field": "education"},
+    {"source_field": "current_company",  "output_field": "company"},
+    {"source_field": "current_title",    "output_field": "title"},
+    {"source_field": "links",            "output_field": "links"}
+  ],
+  "on_missing": "null",
+  "include_overall_confidence": true,
+  "include_metadata": true
+}

@@ -1,0 +1,34 @@
+Recruiter Notes — Candidate Observations
+=========================================
+
+Alex Johnson
+alex@gmail.com
+Phone: (555) 867-5309
+Currently at Google
+Role: Senior Software Engineer
+Location: San Francisco
+Skills: Python, TensorFlow, Data Pipelines, System Design
+Strong communicator. Led a team of 4 on a data ingestion project.
+Stanford grad. Very sharp — would be a great fit for senior roles.
+
+---
+
+Priya Sharma
+priya.sharma@outlook.com
+Works at Microsoft
+Title: Data Scientist
+Based in Bangalore
+Skills: Python, Deep Learning, NLP, PyTorch
+Published 2 papers on transformer architectures.
+IIT Bombay alumna. Impressive ML background.
+
+---
+
+Jordan Lee
+jordan.lee@yahoo.com
+Company: Stripe
+Role: Backend Engineer
+Location: New York
+Skills: Go, Python, Kubernetes, PostgreSQL, gRPC
+Built Stripe's internal rate limiter. Strong systems thinker.
+MIT CS grad, 2020.

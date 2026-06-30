@@ -1,0 +1,80 @@
+{
+  "name": "Alexander Johnson",
+  "emails": {
+    "value": [
+      "alex.johnson@gmail.com",
+      "alex@gmail.com"
+    ],
+    "confidence": 0.9500000000000001,
+    "provenance": [
+      {
+        "field": "emails",
+        "source_type": "ats_json",
+        "source_path": "sample_inputs\\ats_data.json",
+        "original_value": [
+          "alex.johnson@gmail.com"
+        ],
+        "method": "union"
+      },
+      {
+        "field": "emails",
+        "source_type": "csv",
+        "source_path": "sample_inputs\\candidates.csv",
+        "original_value": [
+          "alex@gmail.com"
+        ],
+        "method": "union"
+      }
+    ]
+  },
+  "phones": {
+    "value": [
+      "+15558675309"
+    ],
+    "confidence": 0.9
+  },
+  "location": "San Francisco, CA, US",
+  "skills": {
+    "value": [
+      "Python",
+      "Machine Learning",
+      "TensorFlow",
+      "Data Pipelines"
+    ],
+    "confidence": 0.9
+  },
+  "experience": [
+    {
+      "company": "Google",
+      "title": "Software Engineer",
+      "start_date": "2020-01",
+      "end_date": "Present"
+    },
+    {
+      "company": "Meta",
+      "title": "Software Engineering Intern",
+      "start_date": "2019-05",
+      "end_date": "2019-08"
+    }
+  ],
+  "education": [
+    {
+      "institution": "Stanford University",
+      "degree": "MS Computer Science",
+      "year": "2019"
+    }
+  ],
+  "company": "Google",
+  "title": "Senior Software Engineer",
+  "links": null,
+  "overall_confidence": 0.88,
+  "_metadata": {
+    "profile_id": "084a039c-2ff3-446e-8602-8ed734044d4d",
+    "sources_used": [
+      "sample_inputs\\ats_data.json",
+      "sample_inputs\\candidates.csv"
+    ],
+    "sources_failed": [],
+    "merge_timestamp": "2026-06-30T02:49:43.490977+00:00"
+  }
+}

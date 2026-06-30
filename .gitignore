@@ -1,0 +1,33 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Pytest
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Virtual Environments
+venv/
+env/
+ENV/
+.venv/
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Streamlit
+.streamlit/
+.ui_workspace/
+
+# Note: We intentionally DO NOT ignore the 'output/' and 'sample_inputs/'
+# folders so that the reviewers can see the provided inputs and the
+# generated JSON outputs without needing to run the code themselves.

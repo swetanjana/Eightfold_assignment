@@ -1,0 +1,11 @@
+{
+  "fields": [
+    {"source_field": "full_name",        "output_field": "candidate_name",   "include_confidence": true},
+    {"source_field": "emails",           "output_field": "contact_emails",   "include_provenance": true},
+    {"source_field": "skills",           "output_field": "technical_skills"},
+    {"source_field": "current_company",  "output_field": "employer"}
+  ],
+  "on_missing": "omit",
+  "include_overall_confidence": true,
+  "include_metadata": false
+}

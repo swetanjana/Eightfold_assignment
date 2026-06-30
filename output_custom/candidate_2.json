@@ -1,0 +1,31 @@
+{
+  "candidate_name": {
+    "value": "Priya Sharma",
+    "confidence": 0.9500000000000001
+  },
+  "contact_emails": {
+    "value": [
+      "priya.sharma@outlook.com"
+    ],
+    "provenance": [
+      {
+        "field": "emails",
+        "source_type": "ats_json",
+        "source_path": "sample_inputs\\ats_data.json",
+        "original_value": [
+          "priya.sharma@outlook.com"
+        ],
+        "method": "union"
+      }
+    ]
+  },
+  "technical_skills": [
+    "Python",
+    "Deep Learning",
+    "PyTorch",
+    "NLP",
+    "TensorFlow"
+  ],
+  "employer": "Microsoft",
+  "overall_confidence": 0.892
+}

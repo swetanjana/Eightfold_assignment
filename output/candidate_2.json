@@ -1,0 +1,66 @@
+{
+  "name": "Priya Sharma",
+  "emails": {
+    "value": [
+      "priya.sharma@outlook.com"
+    ],
+    "confidence": 0.9,
+    "provenance": [
+      {
+        "field": "emails",
+        "source_type": "ats_json",
+        "source_path": "sample_inputs\\ats_data.json",
+        "original_value": [
+          "priya.sharma@outlook.com"
+        ],
+        "method": "union"
+      }
+    ]
+  },
+  "phones": {
+    "value": [
+      "+19876543210",
+      "+919876543210"
+    ],
+    "confidence": 0.9500000000000001
+  },
+  "location": "Bangalore, IN",
+  "skills": {
+    "value": [
+      "Python",
+      "Deep Learning",
+      "PyTorch",
+      "NLP",
+      "TensorFlow"
+    ],
+    "confidence": 0.9500000000000001
+  },
+  "experience": [
+    {
+      "company": "Microsoft",
+      "title": "Data Scientist",
+      "start_date": "2021-06",
+      "end_date": "Present"
+    }
+  ],
+  "education": [
+    {
+      "institution": "IIT Bombay",
+      "degree": "BTech Computer Science",
+      "year": "2021"
+    }
+  ],
+  "company": "Microsoft",
+  "title": "ML Engineer",
+  "links": null,
+  "overall_confidence": 0.892,
+  "_metadata": {
+    "profile_id": "29a363ce-02ba-425c-96fb-99a1f2644b22",
+    "sources_used": [
+      "sample_inputs\\ats_data.json",
+      "sample_inputs\\candidates.csv"
+    ],
+    "sources_failed": [],
+    "merge_timestamp": "2026-06-30T02:49:43.491509+00:00"
+  }
+}

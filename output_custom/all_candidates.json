@@ -1,0 +1,104 @@
+[
+  {
+    "candidate_name": {
+      "value": "Alexander Johnson",
+      "confidence": 0.9
+    },
+    "contact_emails": {
+      "value": [
+        "alex.johnson@gmail.com",
+        "alex@gmail.com"
+      ],
+      "provenance": [
+        {
+          "field": "emails",
+          "source_type": "ats_json",
+          "source_path": "sample_inputs\\ats_data.json",
+          "original_value": [
+            "alex.johnson@gmail.com"
+          ],
+          "method": "union"
+        },
+        {
+          "field": "emails",
+          "source_type": "csv",
+          "source_path": "sample_inputs\\candidates.csv",
+          "original_value": [
+            "alex@gmail.com"
+          ],
+          "method": "union"
+        }
+      ]
+    },
+    "technical_skills": [
+      "Python",
+      "Machine Learning",
+      "TensorFlow",
+      "Data Pipelines"
+    ],
+    "employer": "Google",
+    "overall_confidence": 0.88
+  },
+  {
+    "candidate_name": {
+      "value": "Priya Sharma",
+      "confidence": 0.9500000000000001
+    },
+    "contact_emails": {
+      "value": [
+        "priya.sharma@outlook.com"
+      ],
+      "provenance": [
+        {
+          "field": "emails",
+          "source_type": "ats_json",
+          "source_path": "sample_inputs\\ats_data.json",
+          "original_value": [
+            "priya.sharma@outlook.com"
+          ],
+          "method": "union"
+        }
+      ]
+    },
+    "technical_skills": [
+      "Python",
+      "Deep Learning",
+      "PyTorch",
+      "NLP",
+      "TensorFlow"
+    ],
+    "employer": "Microsoft",
+    "overall_confidence": 0.892
+  },
+  {
+    "candidate_name": {
+      "value": "Jordan Lee",
+      "confidence": 0.9500000000000001
+    },
+    "contact_emails": {
+      "value": [
+        "jordan.lee@yahoo.com"
+      ],
+      "provenance": [
+        {
+          "field": "emails",
+          "source_type": "ats_json",
+          "source_path": "sample_inputs\\ats_data.json",
+          "original_value": [
+            "jordan.lee@yahoo.com"
+          ],
+          "method": "union"
+        }
+      ]
+    },
+    "technical_skills": [
+      "Go",
+      "Python",
+      "PostgreSQL",
+      "Kubernetes",
+      "gRPC"
+    ],
+    "employer": "Stripe",
+    "overall_confidence": 0.884
+  }
+]

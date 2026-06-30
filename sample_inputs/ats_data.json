@@ -1,0 +1,92 @@
+[
+  {
+    "applicant_name": "Alexander Johnson",
+    "contact": {
+      "email": "alex.johnson@gmail.com",
+      "phone": "+15558675309"
+    },
+    "position_applied": "Senior Software Engineer",
+    "current_employer": "Google",
+    "skills_list": ["Python", "Machine Learning", "TensorFlow", "Data Pipelines"],
+    "location": "San Francisco, California",
+    "experience": [
+      {
+        "company": "Google",
+        "title": "Software Engineer",
+        "start_date": "Jan 2020",
+        "end_date": "Present"
+      },
+      {
+        "company": "Meta",
+        "title": "Software Engineering Intern",
+        "start_date": "May 2019",
+        "end_date": "Aug 2019"
+      }
+    ],
+    "education": [
+      {
+        "institution": "Stanford University",
+        "degree": "MS Computer Science",
+        "year": "2019"
+      }
+    ]
+  },
+  {
+    "applicant_name": "Priya Sharma",
+    "contact": {
+      "email": "priya.sharma@outlook.com",
+      "phone": "9876543210"
+    },
+    "position_applied": "ML Engineer",
+    "current_employer": "Microsoft",
+    "skills_list": ["Python", "Deep Learning", "PyTorch", "NLP"],
+    "location": "Bangalore, India",
+    "experience": [
+      {
+        "company": "Microsoft",
+        "title": "Data Scientist",
+        "start_date": "June 2021",
+        "end_date": "Present"
+      }
+    ],
+    "education": [
+      {
+        "institution": "IIT Bombay",
+        "degree": "BTech Computer Science",
+        "year": "2021"
+      }
+    ]
+  },
+  {
+    "applicant_name": "Jordan Lee",
+    "contact": {
+      "email": "jordan.lee@yahoo.com",
+      "phone": "+15551234567"
+    },
+    "position_applied": "Backend Engineer",
+    "current_employer": "Stripe",
+    "skills_list": ["Go", "Python", "PostgreSQL", "Kubernetes", "gRPC"],
+    "location": "New York, United States",
+    "experience": [
+      {
+        "company": "Stripe",
+        "title": "Backend Engineer",
+        "start_date": "March 2022",
+        "end_date": "Present"
+      },
+      {
+        "company": "Amazon",
+        "title": "SDE I",
+        "start_date": "July 2020",
+        "end_date": "Feb 2022"
+      }
+    ],
+    "education": [
+      {
+        "institution": "MIT",
+        "degree": "BS Computer Science",
+        "year": "2020"
+      }
+    ]
+  }
+]

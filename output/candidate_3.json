@@ -1,0 +1,71 @@
+{
+  "name": "Jordan Lee",
+  "emails": {
+    "value": [
+      "jordan.lee@yahoo.com"
+    ],
+    "confidence": 0.9,
+    "provenance": [
+      {
+        "field": "emails",
+        "source_type": "ats_json",
+        "source_path": "sample_inputs\\ats_data.json",
+        "original_value": [
+          "jordan.lee@yahoo.com"
+        ],
+        "method": "union"
+      }
+    ]
+  },
+  "phones": {
+    "value": [
+      "+15551234567"
+    ],
+    "confidence": 0.9
+  },
+  "location": "New York, US",
+  "skills": {
+    "value": [
+      "Go",
+      "Python",
+      "PostgreSQL",
+      "Kubernetes",
+      "gRPC"
+    ],
+    "confidence": 0.9
+  },
+  "experience": [
+    {
+      "company": "Stripe",
+      "title": "Backend Engineer",
+      "start_date": "2022-03",
+      "end_date": "Present"
+    },
+    {
+      "company": "Amazon",
+      "title": "SDE I",
+      "start_date": "2020-07",
+      "end_date": "2022-02"
+    }
+  ],
+  "education": [
+    {
+      "institution": "MIT",
+      "degree": "BS Computer Science",
+      "year": "2020"
+    }
+  ],
+  "company": "Stripe",
+  "title": "Backend Engineer",
+  "links": null,
+  "overall_confidence": 0.884,
+  "_metadata": {
+    "profile_id": "dd8f5d65-fa0e-43d3-a84d-55fde702bfa4",
+    "sources_used": [
+      "sample_inputs\\ats_data.json",
+      "sample_inputs\\candidates.csv"
+    ],
+    "sources_failed": [],
+    "merge_timestamp": "2026-06-30T02:49:43.491509+00:00"
+  }
+}

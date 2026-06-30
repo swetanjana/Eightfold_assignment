@@ -1,0 +1,40 @@
+{
+  "candidate_name": {
+    "value": "Alexander Johnson",
+    "confidence": 0.9
+  },
+  "contact_emails": {
+    "value": [
+      "alex.johnson@gmail.com",
+      "alex@gmail.com"
+    ],
+    "provenance": [
+      {
+        "field": "emails",
+        "source_type": "ats_json",
+        "source_path": "sample_inputs\\ats_data.json",
+        "original_value": [
+          "alex.johnson@gmail.com"
+        ],
+        "method": "union"
+      },
+      {
+        "field": "emails",
+        "source_type": "csv",
+        "source_path": "sample_inputs\\candidates.csv",
+        "original_value": [
+          "alex@gmail.com"
+        ],
+        "method": "union"
+      }
+    ]
+  },
+  "technical_skills": [
+    "Python",
+    "Machine Learning",
+    "TensorFlow",
+    "Data Pipelines"
+  ],
+  "employer": "Google",
+  "overall_confidence": 0.88
+}
