@@ -4,12 +4,21 @@
     "value": [
       "priya.sharma@outlook.com"
     ],
-    "confidence": 0.9,
+    "confidence": 0.9500000000000001,
     "provenance": [
       {
         "field": "emails",
         "source_type": "ats_json",
         "source_path": "sample_inputs\\ats_data.json",
+        "original_value": [
+          "priya.sharma@outlook.com"
+        ],
+        "method": "union"
+      },
+      {
+        "field": "emails",
+        "source_type": "csv",
+        "source_path": "sample_inputs\\candidates.csv",
         "original_value": [
           "priya.sharma@outlook.com"
         ],
@@ -53,14 +62,16 @@
   "company": "Microsoft",
   "title": "ML Engineer",
   "links": null,
-  "overall_confidence": 0.892,
+  "overall_confidence": 0.9375,
   "_metadata": {
-    "profile_id": "29a363ce-02ba-425c-96fb-99a1f2644b22",
+    "profile_id": "d70f9480-fc1d-423a-a324-296d2d4a87f2",
     "sources_used": [
-      "sample_inputs\\ats_data.json",
-      "sample_inputs\\candidates.csv"
+      "sample_inputs\\candidates.csv",
+      "sample_inputs\\ats_data.json"
     ],
-    "sources_failed": [],
-    "merge_timestamp": "2026-06-30T02:49:43.491509+00:00"
+    "sources_failed": [
+      "sample_inputs\\recruiter_notes.txt"
+    ],
+    "merge_timestamp": "2026-06-30T13:03:21.384909+00:00"
   }
 }

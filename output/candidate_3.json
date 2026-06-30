@@ -4,12 +4,21 @@
     "value": [
       "jordan.lee@yahoo.com"
     ],
-    "confidence": 0.9,
+    "confidence": 0.9500000000000001,
     "provenance": [
       {
         "field": "emails",
         "source_type": "ats_json",
         "source_path": "sample_inputs\\ats_data.json",
+        "original_value": [
+          "jordan.lee@yahoo.com"
+        ],
+        "method": "union"
+      },
+      {
+        "field": "emails",
+        "source_type": "csv",
+        "source_path": "sample_inputs\\candidates.csv",
         "original_value": [
           "jordan.lee@yahoo.com"
         ],
@@ -21,7 +30,7 @@
     "value": [
       "+15551234567"
     ],
-    "confidence": 0.9
+    "confidence": 0.9500000000000001
   },
   "location": "New York, US",
   "skills": {
@@ -32,7 +41,7 @@
       "Kubernetes",
       "gRPC"
     ],
-    "confidence": 0.9
+    "confidence": 0.9500000000000001
   },
   "experience": [
     {
@@ -58,14 +67,16 @@
   "company": "Stripe",
   "title": "Backend Engineer",
   "links": null,
-  "overall_confidence": 0.884,
+  "overall_confidence": 0.9417,
   "_metadata": {
-    "profile_id": "dd8f5d65-fa0e-43d3-a84d-55fde702bfa4",
+    "profile_id": "c54f9e34-a266-4598-bab0-74b8dfb61fd5",
     "sources_used": [
-      "sample_inputs\\ats_data.json",
-      "sample_inputs\\candidates.csv"
+      "sample_inputs\\candidates.csv",
+      "sample_inputs\\ats_data.json"
     ],
-    "sources_failed": [],
-    "merge_timestamp": "2026-06-30T02:49:43.491509+00:00"
+    "sources_failed": [
+      "sample_inputs\\recruiter_notes.txt"
+    ],
+    "merge_timestamp": "2026-06-30T13:03:21.384909+00:00"
   }
 }

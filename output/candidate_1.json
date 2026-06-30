@@ -5,7 +5,7 @@
       "alex.johnson@gmail.com",
       "alex@gmail.com"
     ],
-    "confidence": 0.9500000000000001,
+    "confidence": 1.0,
     "provenance": [
       {
         "field": "emails",
@@ -24,6 +24,15 @@
           "alex@gmail.com"
         ],
         "method": "union"
+      },
+      {
+        "field": "emails",
+        "source_type": "csv",
+        "source_path": "sample_inputs\\candidates.csv",
+        "original_value": [
+          "alex.johnson@gmail.com"
+        ],
+        "method": "union"
       }
     ]
   },
@@ -31,7 +40,7 @@
     "value": [
       "+15558675309"
     ],
-    "confidence": 0.9
+    "confidence": 1.0
   },
   "location": "San Francisco, CA, US",
   "skills": {
@@ -41,7 +50,7 @@
       "TensorFlow",
       "Data Pipelines"
     ],
-    "confidence": 0.9
+    "confidence": 1.0
   },
   "experience": [
     {
@@ -67,14 +76,16 @@
   "company": "Google",
   "title": "Senior Software Engineer",
   "links": null,
-  "overall_confidence": 0.88,
+  "overall_confidence": 0.95,
   "_metadata": {
-    "profile_id": "084a039c-2ff3-446e-8602-8ed734044d4d",
+    "profile_id": "bf2e24e6-fd41-40df-8a50-264270089b7a",
     "sources_used": [
-      "sample_inputs\\ats_data.json",
-      "sample_inputs\\candidates.csv"
+      "sample_inputs\\candidates.csv",
+      "sample_inputs\\ats_data.json"
     ],
-    "sources_failed": [],
-    "merge_timestamp": "2026-06-30T02:49:43.490977+00:00"
+    "sources_failed": [
+      "sample_inputs\\recruiter_notes.txt"
+    ],
+    "merge_timestamp": "2026-06-30T13:03:21.384909+00:00"
   }
 }
