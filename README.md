@@ -36,11 +36,15 @@ The project includes a comprehensive `pytest` suite covering normalization edge 
 pytest tests/ -v
 ```
 
+![Test Suite Output](assets/test.png)
+
 ---
 
 ## 🖥️ Web UI (Streamlit)
 
 As an alternative to the CLI, a thin Streamlit UI wrapper is provided. This demonstrates the decoupling of the engine from the presentation layer.
+
+![Web UI](assets/ui.png)
 
 ```bash
 # Launch the web interface

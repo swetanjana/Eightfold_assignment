@@ -38,9 +38,13 @@ if config_dir.exists():
 else:
     config_options = {"default_config.json": "sample_configs/default_config.json"}
 
+config_keys = list(config_options.keys())
+default_index = config_keys.index("default_config.json") if "default_config.json" in config_keys else 0
+
 selected_config = st.sidebar.selectbox(
     "Select Projection Config",
-    options=list(config_options.keys()),
+    options=config_keys,
+    index=default_index,
     help="Determines the shape of the output JSON and how missing fields are handled.",
 )
 
